@@ -1,0 +1,46 @@
+@charset "utf-8";
+body, header, footer, main, nav, section, article, p, address, h1, h2, h3, h4, h5, h6,
+div, form, fieldset, legend, table, thead, tfoot, tbody, th, td, ol, ul, li, dl, dt, dd, input, button, figure,
+figcaption, blockquote, aside, caption, select, option, address {
+	margin: 0px; padding: 0px;
+    line-height: 1;
+}
+ol, ul {	list-style: none;	}
+a {	text-decoration: none;	}
+img {	display: block; border: 0px;	}
+address, em, i {	font-style: normal;	}
+button, fieldset {	border: 0px;	}
+legend, caption, hr {	display: none;	}
+table {	border-collapse: collapse; border-spacing: 0px;	}
+h1, h2, h3, h4, h5, h6, strong, th, b {	
+	font-weight: normal; font-size: 1rem; 
+	line-height:1; font-style: normal;
+}
+th {	text-align: left;	}
+q::before, q::after {	content: "";	}
+textarea {	resize: none;	}
+li {line-height: 1;}
+
+
+/*
+html,body,h1,h2,h3,h4,h5,h6,p,div,a,
+header,main,nav,footer,aside,section,article,figure,
+table,thead,tbody,tfoot,tr,th,td,
+ul,ol,li,dl,dt,dd,address,
+video,img,em,span,sub,sup,code,del,s,q,blockquote,
+form,fieldset,input,button,select,option,textarea {
+    margin:0; padding:0;
+    font-size:1rem; font-style: normal; font-weight:normal;
+    font-family: 'Noto Sans KR', 'sans-serif'; letter-spacing: -0.02em;
+    line-height:1.0; word-break:keep-all;
+    cursor:none; /* 기본 커서 숨기기 */
+/*
+ul,ol,li {list-style:none;}
+table,thead,tbody,tfoot,tr,th,td {border-collapse:collapse;}
+th {text-align:left;}
+a {text-decoration:none; color:inherit;}
+fieldset {border:0;}
+textarea {resize:none; border:0;}
+input, button, label {/* cursor:pointer;  background:none; border:0;}
+/*
+.skip {display:none;}

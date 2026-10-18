@@ -1,0 +1,76 @@
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounceM {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+
+@keyframes drop {
+    0% {
+        transform: rotate(335deg) translateX(0);
+        opacity: 0.7;
+    }
+
+    75% {
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: rotate(335deg) translateX(-2000px);
+        opacity: 0;
+    }
+}
+
+
+@keyframes opacity {
+    0% {opacity: 0;}
+
+    100% {opacity: 1;}
+}
+@keyframes up {
+    0% {transform:translateY(5%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes up2{
+    0% {transform:translate(-50%, 5%);}
+    100% {transform:translate(-50%,-50%);}
+}
+@keyframes down {
+    0% {transform:translateY(-5%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes down2 {
+    0% {transform:translateY(-100%);}
+    100% {transform:translateY(0%);}
+}
+@keyframes down3 {
+    0% {transform:translateY(-200%);}
+    100% {transform:translateY(0%);}
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
